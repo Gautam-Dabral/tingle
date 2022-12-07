@@ -1,0 +1,193 @@
+/* light grey - #EFF5F5 
+greyish - #D6E4E5 
+bluish - #001253
+redish - #E14D2A  */
+
+body{
+    background-color: #FFF7E9;
+    font-family : 'Montserrat';
+}
+/* title  */
+#title{
+    background-color: #E14D2A;
+    font-family : 'Montserrat';
+    font-weight: 900;
+    overflow: hidden;
+}
+
+#title h1{
+    font-weight: 600;
+    font-size : 3.4rem;
+    color : white;
+    margin : 20% 5% 5% 0%;
+    line-height: 1.5;
+}
+#title button{
+    margin : 0px 8px;
+}
+.nav-item {
+    margin : 2px 20px;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+.navbar-brand p {
+    font-size : 1rem;
+    color : black;
+}
+.container-fluid{
+    padding: 3% 7% 0%;
+}
+
+#iphone{
+    margin : 20% 0 10% 23%;
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/* features  */
+#features{
+    background-color: #FFF7E9;
+    padding: 10% 8% 0 8%;
+    position: relative;
+    bottom : 250px;
+}
+.feature-items {
+    text-align: center;
+}
+.feature-items p {
+    opacity: 0.7;
+    padding: 10%;
+}
+.feature-icon{
+    font-size : 4.5rem;
+    margin-bottom : 30px;
+    color :#E14D2A;
+}
+.feature-icon:hover {
+    color: #001253;
+}
+
+
+/* testimonials  */
+#testimonials {
+    position: relative;
+    bottom : 100px;
+    background-color: #E14D2A;
+    color : white;
+    padding: 5%;
+    text-align: center;
+}
+
+#testimonials h2{
+    font-size: 2rem;
+    padding : 5%;
+}
+
+#testimonials img{
+    border-radius : 100%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    width : 15%;
+    border : 5px solid #D6E4E5;
+}
+
+/* press  */
+#press {
+    background-color: #D6E4E5;
+    padding : 2%;
+    position: relative;
+    bottom : 50px;
+}
+.press-items {
+    width: 15%;
+    margin: 20px;;
+}
+#press .container-fluid {
+    padding : 4%;
+    text-align: center;  
+}
+
+/* pricing  */
+#pricing {
+    background-color: #FFF7E9;
+    padding : 2% 15% 5% 15%;
+    text-align: center;
+}
+#pricing h2 {
+    font-size: 2rem;
+    color : white;
+    padding : 2%;
+    margin-bottom : 2%;
+    background-color: #E14D2A;
+    border-radius: 15px;
+}
+#pricing h4{
+    font-size: 1.25rem;
+    margin-bottom : 5%;
+}
+.paid {
+    color : white;
+    background-color: #001253;
+}
+.card-body {
+    padding-bottom : 10%;
+}
+.card .card-body h4 {
+    background-color: #E14D2A;
+    margin-bottom: 5%;
+    padding : 2%;
+    color : white;
+    line-height: 1.5;
+    border-radius: 10px;
+}
+.card .card-body h5 {
+    background-color: #D6E4E5;
+    margin-bottom: 5%;
+    padding : 2%;
+    color : black;
+    line-height: 1.25;
+    border-radius: 10px;
+}
+.free .card-body h5 {
+    background-color: #D6E4E5;
+    color: black;
+}
+.card i {
+    font-size : 1rem;
+}
+.card a{
+    width : 100%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+#cta {
+    background-color: #001253;
+    color: white;
+    font-size: 2.5rem;
+    padding: 5%;
+    text-align: center;
+}
+
+#cta h3 {
+    margin-bottom : 5%;
+}
+.cta-btn {
+    background-color: #D6E4E5;
+
+}
+#footer {
+    background-color: #D6E4E5;
+    padding : 1%;
+    text-align: center;
+    color:#001253;
+}
+
+
+/* responsive breakpoints */
+@media (max-width : 492px) {
+    body{
+        text-align: center;
+    }
+}
